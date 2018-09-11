@@ -1,12 +1,12 @@
-package view.vichle.example.tusharlal.vichleviewexample.cartypestate;
+package view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate;
 
 import android.content.Context;
 
-import view.vichle.example.tusharlal.vichleviewexample.CarStatusView;
-import view.vichle.example.tusharlal.vichleviewexample.cartypestate.state.CarTypeSUV;
-import view.vichle.example.tusharlal.vichleviewexample.cartypestate.state.CarTypeSedan;
-import view.vichle.example.tusharlal.vichleviewexample.cartypestate.state.CarTypeVan;
-import view.vichle.example.tusharlal.vichleviewexample.model.CarType;
+import view.vichle.example.tusharlal.vichleviewexample.widget.CarStatusView;
+import view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate.state.CarTypeSUV;
+import view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate.state.CarTypeSedan;
+import view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate.state.CarTypeVan;
+import view.vichle.example.tusharlal.vichleviewexample.widget.model.CarType;
 
 /**
  * Created by : Tushar Lal

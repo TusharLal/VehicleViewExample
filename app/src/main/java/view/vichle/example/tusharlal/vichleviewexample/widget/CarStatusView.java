@@ -1,4 +1,4 @@
-package view.vichle.example.tusharlal.vichleviewexample;
+package view.vichle.example.tusharlal.vichleviewexample.widget;
 
 import android.content.Context;
 import android.os.Build;
@@ -10,8 +10,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import view.vichle.example.tusharlal.vichleviewexample.cartypestate.CarTypeStateMachine;
-import view.vichle.example.tusharlal.vichleviewexample.model.CarType;
+import view.vichle.example.tusharlal.vichleviewexample.R;
+import view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate.CarTypeStateMachine;
+import view.vichle.example.tusharlal.vichleviewexample.widget.model.CarType;
 
 public class CarStatusView extends LinearLayout {
     private static final String NAMESPACE = "http://schemas.android.com/apk/res/android";

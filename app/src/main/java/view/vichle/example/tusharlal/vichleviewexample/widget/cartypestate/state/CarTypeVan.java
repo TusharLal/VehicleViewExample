@@ -1,4 +1,4 @@
-package view.vichle.example.tusharlal.vichleviewexample.cartypestate.state;
+package view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate.state;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,8 +8,8 @@ import android.view.animation.RotateAnimation;
 import android.view.animation.TranslateAnimation;
 
 import view.vichle.example.tusharlal.vichleviewexample.R;
-import view.vichle.example.tusharlal.vichleviewexample.cartypestate.ICarType;
-import view.vichle.example.tusharlal.vichleviewexample.model.CarType;
+import view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate.ICarType;
+import view.vichle.example.tusharlal.vichleviewexample.widget.model.CarType;
 
 /**
  * Created by : Tushar Lal

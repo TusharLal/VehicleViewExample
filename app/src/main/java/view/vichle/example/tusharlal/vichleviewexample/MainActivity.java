@@ -3,15 +3,10 @@ package view.vichle.example.tusharlal.vichleviewexample;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationSet;
-import android.view.animation.AnimationUtils;
-import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 
-import view.vichle.example.tusharlal.vichleviewexample.model.CarType;
+import view.vichle.example.tusharlal.vichleviewexample.widget.CarStatusView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

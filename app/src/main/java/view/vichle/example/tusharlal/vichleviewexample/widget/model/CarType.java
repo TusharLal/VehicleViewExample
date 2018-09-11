@@ -1,4 +1,4 @@
-package view.vichle.example.tusharlal.vichleviewexample.model;
+package view.vichle.example.tusharlal.vichleviewexample.widget.model;
 
 import android.view.animation.Animation;
 

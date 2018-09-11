@@ -1,18 +1,18 @@
-package view.vichle.example.tusharlal.vichleviewexample.cartypestate.state;
+package view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate.state;
 
 import android.content.Context;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 
 import view.vichle.example.tusharlal.vichleviewexample.R;
-import view.vichle.example.tusharlal.vichleviewexample.cartypestate.ICarType;
-import view.vichle.example.tusharlal.vichleviewexample.model.CarType;
+import view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate.ICarType;
+import view.vichle.example.tusharlal.vichleviewexample.widget.model.CarType;
 
 /**
  * Created by : Tushar Lal
  * Date       : 11-09-2018
  */
-public class CarTypeSUV implements ICarType {
+public class CarTypeSedan implements ICarType {
     private static final int DOOR_ANIMATION_DURATION = 1500;
     private static final int ZERO_DEGREE = 0;
     private static final int LEFT_SIDE_OPEN_DEGREE = 45;
@@ -22,12 +22,13 @@ public class CarTypeSUV implements ICarType {
 
     private Context context;
 
-    public CarTypeSUV(Context context) {
+    public CarTypeSedan(Context context) {
         this.context = context;
     }
 
     @Override
     public CarType getCarTypeObject() {
+
         CarType carType = new CarType();
         carType.setCenterImageId(R.drawable.honda_base_center);
 
