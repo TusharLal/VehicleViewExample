@@ -7,5 +7,5 @@ import view.vichle.example.tusharlal.vichleviewexample.widget.model.CarType;
  * Date       : 11-09-2018
  */
 public interface ICarType {
-    public CarType getCarTypeObject();
+    CarType getCarTypeObject();
 }
