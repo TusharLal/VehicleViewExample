@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import view.vichle.example.tusharlal.vichleviewexample.R;
-import view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate.CarTypeStateMachine;
+import view.vichle.example.tusharlal.vichleviewexample.widget.cartypestate.CarTypeFactory;
 import view.vichle.example.tusharlal.vichleviewexample.widget.model.CarType;
 
 public class CarStatusView extends LinearLayout {
@@ -71,10 +71,11 @@ public class CarStatusView extends LinearLayout {
      * @param context the current context for the view.
      */
     private void initializeViews(Context context, int carTypeFlag) {
-        CarTypeStateMachine carTypeStateMachine = new CarTypeStateMachine(context, carTypeFlag);
-        carType = carTypeStateMachine.getCarTypeObject();
+        CarTypeFactory carTypeFactory = new CarTypeFactory(context, carTypeFlag);
+        carType = carTypeFactory.getCarTypeObject();
 
-        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context
+                .LAYOUT_INFLATER_SERVICE);
         view = inflater.inflate(R.layout.car_view, this);
         imageViewFront = view.findViewById(R.id.imageView_front);
         imageViewCenter = view.findViewById(R.id.imageView_center);
@@ -100,8 +101,8 @@ public class CarStatusView extends LinearLayout {
 
     public void setCarType(int carTypeFlag) {
         restView();
-        CarTypeStateMachine carTypeStateMachine = new CarTypeStateMachine(this.getContext(), carTypeFlag);
-        carType = carTypeStateMachine.getCarTypeObject();
+        CarTypeFactory carTypeFactory = new CarTypeFactory(this.getContext(), carTypeFlag);
+        carType = carTypeFactory.getCarTypeObject();
         setupCarBody();
     }
 
@@ -134,15 +135,19 @@ public class CarStatusView extends LinearLayout {
             textViewTyrePressureFL.setText(pressure);
             if (tyrePressure <= minTypePressure) {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    imageViewTyrePressureFL.setImageDrawable(getResources().getDrawable(R.drawable.fl_active, this.getContext().getTheme()));
+                    imageViewTyrePressureFL.setImageDrawable(getResources().getDrawable(R
+                            .drawable.fl_active, this.getContext().getTheme()));
                 } else {
-                    imageViewTyrePressureFL.setImageDrawable(getResources().getDrawable(R.drawable.fl_active));
+                    imageViewTyrePressureFL.setImageDrawable(getResources().getDrawable(R
+                            .drawable.fl_active));
                 }
             } else {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    imageViewTyrePressureFL.setImageDrawable(getResources().getDrawable(R.drawable.fl_normal, this.getContext().getTheme()));
+                    imageViewTyrePressureFL.setImageDrawable(getResources().getDrawable(R
+                            .drawable.fl_normal, this.getContext().getTheme()));
                 } else {
-                    imageViewTyrePressureFL.setImageDrawable(getResources().getDrawable(R.drawable.fl_normal));
+                    imageViewTyrePressureFL.setImageDrawable(getResources().getDrawable(R
+                            .drawable.fl_normal));
                 }
             }
         } catch (Exception e) {
@@ -160,15 +165,19 @@ public class CarStatusView extends LinearLayout {
             textViewTyrePressureBL.setText(pressure);
             if (tyrePressure <= minTypePressure) {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    imageViewTyrePressureBL.setImageDrawable(getResources().getDrawable(R.drawable.bl_active, this.getContext().getTheme()));
+                    imageViewTyrePressureBL.setImageDrawable(getResources().getDrawable(R
+                            .drawable.bl_active, this.getContext().getTheme()));
                 } else {
-                    imageViewTyrePressureBL.setImageDrawable(getResources().getDrawable(R.drawable.bl_active));
+                    imageViewTyrePressureBL.setImageDrawable(getResources().getDrawable(R
+                            .drawable.bl_active));
                 }
             } else {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    imageViewTyrePressureBL.setImageDrawable(getResources().getDrawable(R.drawable.bl_normal, this.getContext().getTheme()));
+                    imageViewTyrePressureBL.setImageDrawable(getResources().getDrawable(R
+                            .drawable.bl_normal, this.getContext().getTheme()));
                 } else {
-                    imageViewTyrePressureBL.setImageDrawable(getResources().getDrawable(R.drawable.bl_normal));
+                    imageViewTyrePressureBL.setImageDrawable(getResources().getDrawable(R
+                            .drawable.bl_normal));
                 }
             }
         } catch (Exception e) {
@@ -186,15 +195,19 @@ public class CarStatusView extends LinearLayout {
             textViewTyrePressureFR.setText(pressure);
             if (tyrePressure <= minTypePressure) {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    imageViewTyrePressureFR.setImageDrawable(getResources().getDrawable(R.drawable.fr_active, this.getContext().getTheme()));
+                    imageViewTyrePressureFR.setImageDrawable(getResources().getDrawable(R
+                            .drawable.fr_active, this.getContext().getTheme()));
                 } else {
-                    imageViewTyrePressureFR.setImageDrawable(getResources().getDrawable(R.drawable.fr_active));
+                    imageViewTyrePressureFR.setImageDrawable(getResources().getDrawable(R
+                            .drawable.fr_active));
                 }
             } else {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    imageViewTyrePressureFR.setImageDrawable(getResources().getDrawable(R.drawable.fr_normal, this.getContext().getTheme()));
+                    imageViewTyrePressureFR.setImageDrawable(getResources().getDrawable(R
+                            .drawable.fr_normal, this.getContext().getTheme()));
                 } else {
-                    imageViewTyrePressureFR.setImageDrawable(getResources().getDrawable(R.drawable.fr_normal));
+                    imageViewTyrePressureFR.setImageDrawable(getResources().getDrawable(R
+                            .drawable.fr_normal));
                 }
             }
         } catch (Exception e) {
@@ -212,15 +225,19 @@ public class CarStatusView extends LinearLayout {
             textViewTyrePressureBR.setText(pressure);
             if (tyrePressure <= minTypePressure) {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    imageViewTyrePressureBR.setImageDrawable(getResources().getDrawable(R.drawable.br_active, this.getContext().getTheme()));
+                    imageViewTyrePressureBR.setImageDrawable(getResources().getDrawable(R
+                            .drawable.br_active, this.getContext().getTheme()));
                 } else {
-                    imageViewTyrePressureBR.setImageDrawable(getResources().getDrawable(R.drawable.br_active));
+                    imageViewTyrePressureBR.setImageDrawable(getResources().getDrawable(R
+                            .drawable.br_active));
                 }
             } else {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    imageViewTyrePressureBR.setImageDrawable(getResources().getDrawable(R.drawable.br_normal, this.getContext().getTheme()));
+                    imageViewTyrePressureBR.setImageDrawable(getResources().getDrawable(R
+                            .drawable.br_normal, this.getContext().getTheme()));
                 } else {
-                    imageViewTyrePressureBR.setImageDrawable(getResources().getDrawable(R.drawable.br_normal));
+                    imageViewTyrePressureBR.setImageDrawable(getResources().getDrawable(R
+                            .drawable.br_normal));
                 }
             }
         } catch (Exception e) {
@@ -367,13 +384,15 @@ public class CarStatusView extends LinearLayout {
         return flag;
     }
 
-    public void setTyrePressureLimit(float pressureMin, float pressureMax) throws IncorrectPressureLimitException {
+    public void setTyrePressureLimit(float pressureMin, float pressureMax) throws
+            IncorrectPressureLimitException {
         if (pressureMax <= 0)
             throw new IncorrectPressureLimitException("Maximum pressure can't be 0");
         else if (pressureMin <= 0)
             throw new IncorrectPressureLimitException("Minimum pressure can't be 0");
         else if (pressureMin > pressureMax)
-            throw new IncorrectPressureLimitException("Minimum pressure can't be greater than Maximum pressure");
+            throw new IncorrectPressureLimitException("Minimum pressure can't be greater than " +
+                    "Maximum pressure");
         minTypePressure = pressureMin;
         maxTypePressure = pressureMax;
         checkTyrePressureWithNewLimits();

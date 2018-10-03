@@ -8,7 +8,62 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PinViewWidgetExample/app/src/main/java/view/pin/example/tusharlal/pinviewwidgetexample/widget/PinView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PinViewWidgetExample/app/src/main/java/view/pin/example/tusharlal/pinviewwidgetexample/widget/textwatcher/PinWatcher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PinViewWidgetExample/app/src/main/java/view/pin/example/tusharlal/pinviewwidgetexample/widget/view/PinText.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PinViewWidgetExample/app/src/main/java/view/pin/example/tusharlal/pinviewwidgetexample/widget/view/PinView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PinViewWidgetExample/app/src/main/res/layout/pin_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/view/vichle/example/tusharlal/vichleviewexample/widget/CarStatusView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/view/vichle/example/tusharlal/vichleviewexample/widget/cartypestate/CarTypeFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/view/vichle/example/tusharlal/vichleviewexample/widget/cartypestate/state/CarTypeVan.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Workspace/travel_Honda_NA_Android/Hondaapp/src/main/java/com/honda/common/cpc/CPCUtility.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Workspace/travel_Honda_NA_Android/Hondaapp/src/main/java/com/honda/common/module/map/view/adapter/DealersListAdapter.java">
           <value>
             <set />
           </value>

@@ -1,0 +1,15 @@
+
+ssquid:S00116"VRename this field "editText_br" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßâœúÿÿÿÿ
+psquid:S00116"XRename this field "button_flDoor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç”ê
+P"squid:SwitchLastCaseIsDefaultCheckA""Add a default case to this switch.(ºÖ
+ssquid:S00116"VRename this field "button_door" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÿ—şÿÿÿÿ
+usquid:S00116"XRename this field "button_frDoor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¢’ôÿÿÿÿÿ
+osquid:S00116"WRename this field "button_tyres" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(› ÑÅ
+ysquid:S00116"aRename this field "button_setTyrePressure" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¨ä‰
+ssquid:S00116"VRename this field "editText_fl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¯”Üùÿÿÿÿ
+nsquid:S00116"VRename this field "editText_fr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Üì‰
+ssquid:S00116"VRename this field "editText_bl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üøÒúşÿÿÿÿ
+fsquid:MaximumInheritanceDepth"=This class has 10 parents which is greater than 5 authorized.(ÄÇ‚·
+psquid:S00116"XRename this field "button_brDoor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰­É±
+nsquid:S3776@"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ğ¸™áúÿÿÿÿ
+usquid:S00116"XRename this field "button_blDoor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êèçşÿÿÿÿ

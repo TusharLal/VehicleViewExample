@@ -12,12 +12,12 @@ import view.vichle.example.tusharlal.vichleviewexample.widget.model.CarType;
  * Created by : Tushar Lal
  * Date       : 11-09-2018
  */
-public class CarTypeStateMachine implements ICarType {
+public class CarTypeFactory implements ICarType {
 
     private Context context;
     private CarType carType;
 
-    public CarTypeStateMachine(Context context, int carTypeFlag) {
+    public CarTypeFactory(Context context, int carTypeFlag) {
         this.context = context;
         setCarType(carTypeFlag);
     }
